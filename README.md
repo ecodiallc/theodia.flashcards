@@ -18,8 +18,8 @@ Files in this repository follow [`notes/github-repo-naming-standards.md`](https:
 
 <!-- Keep this table in sync with index.json -->
 
-| ID               | Type       | File                                  | Name                                   | Description                                                        |
-| ---------------- | ---------- | ------------------------------------- | -------------------------------------- | ------------------------------------------------------------------ |
+| ID                  | Type       | File                               | Name                                   | Description                                                  |
+| ------------------- | ---------- | ---------------------------------- | -------------------------------------- | ------------------------------------------------------------ |
 | `greek-beginner-50` | flashcards | `Greek-Beginner-50.flashcards.zip` | Popular Greek Words — Beginner Top 50 | The 50 most common Greek words every beginner should know. |
 
 ## Installation
@@ -57,32 +57,58 @@ Greek-Beginner-50.flashcards.zip
 }
 ```
 
-### Package JSON (`*.flashcards.json`)
+### Internal package JSON (`*.flashcards.json`)
+
+The archive must contain exactly one JSON file with this top-level shape. The app validates this structure before importing the deck.
 
 ```json
 {
-  "id": "greek-beginner-50",
-  "name": "Popular Greek Words — Beginner Top 50",
-  "description": "...",
-  "language": "el",
-  "category": "bible-languages",
   "version": 1,
-  "createdAt": "2026-10-03",
-  "cardCount": 50,
-  "cards": [
-    {
-      "id": "greek-001",
-      "front": "ἀγάπη",
-      "back": "love; self-giving, unconditional love",
-      "transliteration": "agapē",
-      "partOfSpeech": "noun",
-      "exampleRef": "1 John 4:8"
-    }
-  ]
+  "deck": {
+    "name": "Popular Greek Words — Beginner Top 50",
+    "description": "The 50 most common Greek words every beginner should know.",
+    "isReadOnly": true,
+    "cards": [
+      {
+        "reference": "1 John 4:8",
+        "front": "ἀγάπη",
+        "back": "love; self-giving, unconditional love",
+        "contentType": "qna",
+        "metadata": {
+          "transliteration": "agapē",
+          "partOfSpeech": "noun",
+          "originalId": "greek-001"
+        }
+      }
+    ]
+  }
 }
 ```
 
-Required card fields: `id`, `front`, `back`. Optional fields such as `transliteration`, `partOfSpeech`, and `exampleRef` may be included as appropriate for the language or topic.
+Required fields:
+
+| Field                    | Type   | Purpose                                                                                     |
+| ------------------------ | ------ | ------------------------------------------------------------------------------------------- |
+| `version`                | number | Internal backup format version. Must be `1`.                                                |
+| `deck.name`              | string | Display name for the installed deck.                                                        |
+| `deck.cards`             | array  | Array of card objects.                                                                      |
+| `deck.cards[].reference` | string | Required card reference. Use a verse reference or stable key; the app rejects empty values. |
+| `deck.cards[].back`      | string | Required answer / back side of the card.                                                    |
+
+Optional fields:
+
+| Field                       | Type   | Purpose                                                                                                                                                   |
+| --------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `deck.description`          | string | Human-readable deck description.                                                                                                                          |
+| `deck.isReadOnly`           | bool   | If `true`, the user cannot edit the deck inside the app. Recommended for GitHub-sourced decks.                                                            |
+| `deck.cards[].front`        | string | Question / front side of the card.                                                                                                                        |
+| `deck.cards[].contentType`  | string | `"verse"` (default), `"qna"`, or another type supported by the app. Use `"qna"` for non-bible language cards so the review screen keeps the `back` text. |
+| `deck.cards[].metadata`     | object | Extra structured data such as `transliteration`, `partOfSpeech`, `originalId`, etc.                                                                       |
+
+**Important:**
+- Do not put `cards` at the top level. The app importer expects `deck.cards`.
+- Every card must have a non-empty `reference`; a bare `id` alone is not sufficient.
+- `version` in this JSON is the backup-format version (`1`), not the content version of the deck.
 
 ## License
 
