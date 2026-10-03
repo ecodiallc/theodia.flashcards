@@ -4,13 +4,14 @@
   "packages": [
     {
       "id": "greek-beginner-50",
+      "type": "flashcards",
+      "path": "Greek-Beginner-50.flashcards.zip",
       "name": "Popular Greek Words — Beginner Top 50",
       "description": "The 50 most common Greek words every beginner should know, drawn from biblical/Koine vocabulary with English glosses and example references.",
       "language": "el",
       "category": "bible-languages",
       "cardCount": 50,
-      "path": "greek-beginner-50.flashcards.zip",
-      "version": 1,
+      "version": "1.0.0",
       "updatedAt": "2026-10-03"
     }
   ]
