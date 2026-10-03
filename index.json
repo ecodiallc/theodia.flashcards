@@ -1,5 +1,17 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25T00:00:00.000Z",
-  "packages": []
+  "updatedAt": "2026-10-03T00:00:00.000Z",
+  "packages": [
+    {
+      "id": "greek-beginner-50",
+      "name": "Popular Greek Words — Beginner Top 50",
+      "description": "The 50 most common Greek words every beginner should know, drawn from biblical/Koine vocabulary with English glosses and example references.",
+      "language": "el",
+      "category": "bible-languages",
+      "cardCount": 50,
+      "path": "packages/greek-beginner-50.json",
+      "version": 1,
+      "updatedAt": "2026-10-03"
+    }
+  ]
 }

@@ -1,0 +1,412 @@
+{
+  "id": "greek-beginner-50",
+  "name": "Popular Greek Words — Beginner Top 50",
+  "description": "The 50 most common Greek words every beginner should know, drawn from biblical/Koine vocabulary with English glosses and example references.",
+  "language": "el",
+  "category": "bible-languages",
+  "version": 1,
+  "createdAt": "2026-10-03",
+  "cardCount": 50,
+  "cards": [
+    {
+      "id": "greek-001",
+      "front": "ἀγάπη",
+      "back": "love; self-giving, unconditional love",
+      "transliteration": "agapē",
+      "partOfSpeech": "noun",
+      "exampleRef": "1 John 4:8"
+    },
+    {
+      "id": "greek-002",
+      "front": "ἄνθρωπος",
+      "back": "human being, man, person",
+      "transliteration": "anthrōpos",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 1:4"
+    },
+    {
+      "id": "greek-003",
+      "front": "θεός",
+      "back": "God, deity",
+      "transliteration": "theos",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 1:1"
+    },
+    {
+      "id": "greek-004",
+      "front": "κύριος",
+      "back": "lord, master, Lord",
+      "transliteration": "kyrios",
+      "partOfSpeech": "noun",
+      "exampleRef": "Philippians 2:11"
+    },
+    {
+      "id": "greek-005",
+      "front": "Ἰησοῦς",
+      "back": "Jesus",
+      "transliteration": "Iēsous",
+      "partOfSpeech": "proper noun",
+      "exampleRef": "Matthew 1:21"
+    },
+    {
+      "id": "greek-006",
+      "front": "Χριστός",
+      "back": "Christ, the Anointed One, Messiah",
+      "transliteration": "Christos",
+      "partOfSpeech": "proper noun",
+      "exampleRef": "John 1:41"
+    },
+    {
+      "id": "greek-007",
+      "front": "πνεῦμα",
+      "back": "spirit, wind, breath",
+      "transliteration": "pneuma",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 3:8"
+    },
+    {
+      "id": "greek-008",
+      "front": "υἱός",
+      "back": "son",
+      "transliteration": "huios",
+      "partOfSpeech": "noun",
+      "exampleRef": "Matthew 28:5"
+    },
+    {
+      "id": "greek-009",
+      "front": "πατήρ",
+      "back": "father",
+      "transliteration": "patēr",
+      "partOfSpeech": "noun",
+      "exampleRef": "Matthew 6:9"
+    },
+    {
+      "id": "greek-010",
+      "front": "μήτηρ",
+      "back": "mother",
+      "transliteration": "mētēr",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 2:1"
+    },
+    {
+      "id": "greek-011",
+      "front": "οὐρανός",
+      "back": "heaven, sky",
+      "transliteration": "ouranos",
+      "partOfSpeech": "noun",
+      "exampleRef": "Matthew 6:9"
+    },
+    {
+      "id": "greek-012",
+      "front": "γῆ",
+      "back": "earth, land, ground, soil",
+      "transliteration": "gē",
+      "partOfSpeech": "noun",
+      "exampleRef": "Matthew 5:5"
+    },
+    {
+      "id": "greek-013",
+      "front": "ἄγγελος",
+      "back": "messenger, angel",
+      "transliteration": "angelos",
+      "partOfSpeech": "noun",
+      "exampleRef": "Luke 2:10"
+    },
+    {
+      "id": "greek-014",
+      "front": "βασιλεία",
+      "back": "kingdom, reign",
+      "transliteration": "basileia",
+      "partOfSpeech": "noun",
+      "exampleRef": "Matthew 6:33"
+    },
+    {
+      "id": "greek-015",
+      "front": "δόξα",
+      "back": "glory, splendor, opinion",
+      "transliteration": "doxa",
+      "partOfSpeech": "noun",
+      "exampleRef": "Luke 2:14"
+    },
+    {
+      "id": "greek-016",
+      "front": "ἁμαρτία",
+      "back": "sin",
+      "transliteration": "hamartia",
+      "partOfSpeech": "noun",
+      "exampleRef": "Romans 3:23"
+    },
+    {
+      "id": "greek-017",
+      "front": "σωτηρία",
+      "back": "salvation, deliverance",
+      "transliteration": "sōtēria",
+      "partOfSpeech": "noun",
+      "exampleRef": "Ephesians 2:8"
+    },
+    {
+      "id": "greek-018",
+      "front": "εἰρήνη",
+      "back": "peace",
+      "transliteration": "eirēnē",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 14:27"
+    },
+    {
+      "id": "greek-019",
+      "front": "χάρις",
+      "back": "grace, favor, kindness",
+      "transliteration": "charis",
+      "partOfSpeech": "noun",
+      "exampleRef": "Ephesians 2:8"
+    },
+    {
+      "id": "greek-020",
+      "front": "πίστις",
+      "back": "faith, trust, belief",
+      "transliteration": "pistis",
+      "partOfSpeech": "noun",
+      "exampleRef": "Hebrews 11:1"
+    },
+    {
+      "id": "greek-021",
+      "front": "ἐλπίς",
+      "back": "hope",
+      "transliteration": "elpis",
+      "partOfSpeech": "noun",
+      "exampleRef": "Romans 8:24"
+    },
+    {
+      "id": "greek-022",
+      "front": "ζωή",
+      "back": "life",
+      "transliteration": "zōē",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 11:25"
+    },
+    {
+      "id": "greek-023",
+      "front": "θάνατος",
+      "back": "death",
+      "transliteration": "thanatos",
+      "partOfSpeech": "noun",
+      "exampleRef": "1 Corinthians 15:55"
+    },
+    {
+      "id": "greek-024",
+      "front": "ἀλήθεια",
+      "back": "truth",
+      "transliteration": "alētheia",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 14:6"
+    },
+    {
+      "id": "greek-025",
+      "front": "ὁδός",
+      "back": "way, road, path",
+      "transliteration": "hodos",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 14:6"
+    },
+    {
+      "id": "greek-026",
+      "front": "φῶς",
+      "back": "light",
+      "transliteration": "phōs",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 1:4"
+    },
+    {
+      "id": "greek-027",
+      "front": "σκοτία",
+      "back": "darkness",
+      "transliteration": "skotia",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 1:5"
+    },
+    {
+      "id": "greek-028",
+      "front": "ἡμέρα",
+      "back": "day",
+      "transliteration": "hēmera",
+      "partOfSpeech": "noun",
+      "exampleRef": "Genesis 1:5"
+    },
+    {
+      "id": "greek-029",
+      "front": "νύξ",
+      "back": "night",
+      "transliteration": "nyx",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 9:4"
+    },
+    {
+      "id": "greek-030",
+      "front": "ἔτος",
+      "back": "year",
+      "transliteration": "etos",
+      "partOfSpeech": "noun",
+      "exampleRef": "Luke 2:41"
+    },
+    {
+      "id": "greek-031",
+      "front": "καρδία",
+      "back": "heart",
+      "transliteration": "kardia",
+      "partOfSpeech": "noun",
+      "exampleRef": "Matthew 5:8"
+    },
+    {
+      "id": "greek-032",
+      "front": "ψυχή",
+      "back": "soul, life, self",
+      "transliteration": "psychē",
+      "partOfSpeech": "noun",
+      "exampleRef": "Matthew 16:26"
+    },
+    {
+      "id": "greek-033",
+      "front": "σάρξ",
+      "back": "flesh, body, human nature",
+      "transliteration": "sarx",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 1:14"
+    },
+    {
+      "id": "greek-034",
+      "front": "αἷμα",
+      "back": "blood",
+      "transliteration": "haima",
+      "partOfSpeech": "noun",
+      "exampleRef": "Matthew 26:28"
+    },
+    {
+      "id": "greek-035",
+      "front": "ὕδωρ",
+      "back": "water",
+      "transliteration": "hydōr",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 4:14"
+    },
+    {
+      "id": "greek-036",
+      "front": "ἄρτος",
+      "back": "bread, loaf",
+      "transliteration": "artos",
+      "partOfSpeech": "noun",
+      "exampleRef": "Matthew 6:11"
+    },
+    {
+      "id": "greek-037",
+      "front": "ἰχθύς",
+      "back": "fish",
+      "transliteration": "ichthys",
+      "partOfSpeech": "noun",
+      "exampleRef": "Matthew 4:19"
+    },
+    {
+      "id": "greek-038",
+      "front": "ποιμήν",
+      "back": "shepherd",
+      "transliteration": "poimēn",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 10:11"
+    },
+    {
+      "id": "greek-039",
+      "front": "δῶρον",
+      "back": "gift, offering",
+      "transliteration": "dōron",
+      "partOfSpeech": "noun",
+      "exampleRef": "Matthew 5:23"
+    },
+    {
+      "id": "greek-040",
+      "front": "χείρ",
+      "back": "hand",
+      "transliteration": "cheir",
+      "partOfSpeech": "noun",
+      "exampleRef": "Mark 1:31"
+    },
+    {
+      "id": "greek-041",
+      "front": "ὀφθαλμός",
+      "back": "eye",
+      "transliteration": "ophthalmos",
+      "partOfSpeech": "noun",
+      "exampleRef": "Matthew 6:22"
+    },
+    {
+      "id": "greek-042",
+      "front": "πούς",
+      "back": "foot",
+      "transliteration": "pous",
+      "partOfSpeech": "noun",
+      "exampleRef": "Luke 10:4"
+    },
+    {
+      "id": "greek-043",
+      "front": "στόμα",
+      "back": "mouth",
+      "transliteration": "stoma",
+      "partOfSpeech": "noun",
+      "exampleRef": "Matthew 15:11"
+    },
+    {
+      "id": "greek-044",
+      "front": "ὠτίον",
+      "back": "ear",
+      "transliteration": "ōtion",
+      "partOfSpeech": "noun",
+      "exampleRef": "Mark 14:47"
+    },
+    {
+      "id": "greek-045",
+      "front": "φωνή",
+      "back": "voice, sound",
+      "transliteration": "phōnē",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 5:25"
+    },
+    {
+      "id": "greek-046",
+      "front": "λόγος",
+      "back": "word, message, reason",
+      "transliteration": "logos",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 1:1"
+    },
+    {
+      "id": "greek-047",
+      "front": "νόμος",
+      "back": "law",
+      "transliteration": "nomos",
+      "partOfSpeech": "noun",
+      "exampleRef": "John 1:17"
+    },
+    {
+      "id": "greek-048",
+      "front": "προφήτης",
+      "back": "prophet",
+      "transliteration": "prophētēs",
+      "partOfSpeech": "noun",
+      "exampleRef": "Matthew 1:22"
+    },
+    {
+      "id": "greek-049",
+      "front": "ἀπόστολος",
+      "back": "apostle, messenger, envoy",
+      "transliteration": "apostolos",
+      "partOfSpeech": "noun",
+      "exampleRef": "Ephesians 2:20"
+    },
+    {
+      "id": "greek-050",
+      "front": "μαθητής",
+      "back": "disciple, student, learner",
+      "transliteration": "mathētēs",
+      "partOfSpeech": "noun",
+      "exampleRef": "Matthew 28:19"
+    }
+  ]
+}
