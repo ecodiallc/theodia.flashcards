@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T01:13:40.000Z",
+  "updatedAt": "2026-10-04T01:16:38.000Z",
   "packages": [
     {
       "id": "greek-beginner-100",
@@ -47,6 +47,18 @@
       "language": "he",
       "category": "bible-languages",
       "cardCount": 24,
+      "version": "1.0.0",
+      "updatedAt": "2026-10-04"
+    },
+    {
+      "id": "greek-prepositions",
+      "type": "flashcards",
+      "path": "Greek-Prepositions.flashcards.zip",
+      "name": "Greek Prepositions",
+      "description": "25 common Koine Greek prepositions with English meanings, transliterations, and the grammatical cases they govern.",
+      "language": "el",
+      "category": "bible-languages",
+      "cardCount": 25,
       "version": "1.0.0",
       "updatedAt": "2026-10-04"
     }

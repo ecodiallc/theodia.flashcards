@@ -22,6 +22,7 @@ Files in this repository follow [`notes/github-repo-naming-standards.md`](https:
 | --------------------------- | ---------- | -------------------------------------- | --------------------------------- | ------------------------------------------------------------ |
 | `greek-alphabet`            | flashcards | `Greek-Alphabet.flashcards.zip`        | Greek Alphabet                    | The 24 letters of the Greek alphabet with uppercase and lowercase forms and their Latin transliteration. |
 | `hebrew-alphabet`           | flashcards | `Hebrew-Alphabet.flashcards.zip`       | Hebrew Alphabet                   | The 22 letters of the Hebrew alphabet plus their final forms, with the letter on the front and the English name on the back. |
+| `greek-prepositions`        | flashcards | `Greek-Prepositions.flashcards.zip`   | Greek Prepositions                | 25 common Koine Greek prepositions with meanings, transliterations, and the cases they govern. |
 | `greek-beginner-100`         | flashcards | `Greek-Beginner-100.flashcards.zip`     | Popular Greek Words — Beginner Top 100 | The 100 most common Greek words every beginner should know. |
 | `popular-verses-top-50-kjv` | flashcards | `Popular-Verses-Top-50.flashcards.zip` | Popular Verses — Top 50 (KJV)     | 50 of the most popular and memorized Bible verses from the King James Version. |
 
@@ -65,6 +66,17 @@ Greek-Beginner-100.flashcards.zip
       "language": "he",
       "category": "bible-languages",
       "cardCount": 24,
+      "version": "1.0.0"
+    },
+    {
+      "id": "greek-prepositions",
+      "type": "flashcards",
+      "path": "Greek-Prepositions.flashcards.zip",
+      "name": "Greek Prepositions",
+      "description": "25 common Koine Greek prepositions with English meanings, transliterations, and the grammatical cases they govern.",
+      "language": "el",
+      "category": "bible-languages",
+      "cardCount": 25,
       "version": "1.0.0"
     },
     {
