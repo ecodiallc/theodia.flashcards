@@ -13,6 +13,18 @@
       "cardCount": 50,
       "version": "1.0.0",
       "updatedAt": "2026-10-03"
+    },
+    {
+      "id": "popular-verses-top-25-kjv",
+      "type": "flashcards",
+      "path": "Popular-Verses-Top-25.flashcards.zip",
+      "name": "Popular Verses — Top 25 (KJV)",
+      "description": "25 of the most popular and memorized Bible verses from the King James Version.",
+      "language": "en",
+      "category": "bible-memory",
+      "cardCount": 25,
+      "version": "1.0.0",
+      "updatedAt": "2026-10-03"
     }
   ]
 }

@@ -18,9 +18,10 @@ Files in this repository follow [`notes/github-repo-naming-standards.md`](https:
 
 <!-- Keep this table in sync with index.json -->
 
-| ID                  | Type       | File                               | Name                                   | Description                                                  |
-| ------------------- | ---------- | ---------------------------------- | -------------------------------------- | ------------------------------------------------------------ |
-| `greek-beginner-50` | flashcards | `Greek-Beginner-50.flashcards.zip` | Popular Greek Words — Beginner Top 50 | The 50 most common Greek words every beginner should know. |
+| ID                          | Type       | File                                   | Name                              | Description                                                  |
+| --------------------------- | ---------- | -------------------------------------- | --------------------------------- | ------------------------------------------------------------ |
+| `greek-beginner-50`         | flashcards | `Greek-Beginner-50.flashcards.zip`     | Popular Greek Words — Beginner Top 50 | The 50 most common Greek words every beginner should know. |
+| `popular-verses-top-25-kjv` | flashcards | `Popular-Verses-Top-25.flashcards.zip` | Popular Verses — Top 25 (KJV)     | 25 of the most popular and memorized Bible verses from the King James Version. |
 
 ## Installation
 
@@ -51,6 +52,17 @@ Greek-Beginner-50.flashcards.zip
       "language": "el",
       "category": "bible-languages",
       "cardCount": 50,
+      "version": "1.0.0"
+    },
+    {
+      "id": "popular-verses-top-25-kjv",
+      "type": "flashcards",
+      "path": "Popular-Verses-Top-25.flashcards.zip",
+      "name": "Popular Verses — Top 25 (KJV)",
+      "description": "25 of the most popular and memorized Bible verses from the King James Version.",
+      "language": "en",
+      "category": "bible-memory",
+      "cardCount": 25,
       "version": "1.0.0"
     }
   ]
