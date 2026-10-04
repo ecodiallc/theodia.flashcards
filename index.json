@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T01:10:14.000Z",
+  "updatedAt": "2026-10-04T01:12:43.000Z",
   "packages": [
     {
       "id": "greek-beginner-100",
@@ -24,6 +24,18 @@
       "category": "bible-memory",
       "cardCount": 50,
       "version": "1.1.0",
+      "updatedAt": "2026-10-04"
+    },
+    {
+      "id": "greek-alphabet",
+      "type": "flashcards",
+      "path": "Greek-Alphabet.flashcards.zip",
+      "name": "Greek Alphabet",
+      "description": "The 24 letters of the Greek alphabet with uppercase and lowercase forms, plus their Latin transliteration.",
+      "language": "el",
+      "category": "bible-languages",
+      "cardCount": 24,
+      "version": "1.0.0",
       "updatedAt": "2026-10-04"
     }
   ]

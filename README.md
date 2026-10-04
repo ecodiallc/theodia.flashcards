@@ -20,6 +20,7 @@ Files in this repository follow [`notes/github-repo-naming-standards.md`](https:
 
 | ID                          | Type       | File                                   | Name                              | Description                                                  |
 | --------------------------- | ---------- | -------------------------------------- | --------------------------------- | ------------------------------------------------------------ |
+| `greek-alphabet`            | flashcards | `Greek-Alphabet.flashcards.zip`        | Greek Alphabet                    | The 24 letters of the Greek alphabet with uppercase and lowercase forms and their Latin transliteration. |
 | `greek-beginner-100`         | flashcards | `Greek-Beginner-100.flashcards.zip`     | Popular Greek Words — Beginner Top 100 | The 100 most common Greek words every beginner should know. |
 | `popular-verses-top-50-kjv` | flashcards | `Popular-Verses-Top-50.flashcards.zip` | Popular Verses — Top 50 (KJV)     | 50 of the most popular and memorized Bible verses from the King James Version. |
 
@@ -43,6 +44,17 @@ Greek-Beginner-100.flashcards.zip
   "version": 1,
   "updatedAt": "2026-10-03T00:00:00.000Z",
   "packages": [
+    {
+      "id": "greek-alphabet",
+      "type": "flashcards",
+      "path": "Greek-Alphabet.flashcards.zip",
+      "name": "Greek Alphabet",
+      "description": "The 24 letters of the Greek alphabet with uppercase and lowercase forms and their Latin transliteration.",
+      "language": "el",
+      "category": "bible-languages",
+      "cardCount": 24,
+      "version": "1.0.0"
+    },
     {
       "id": "greek-beginner-100",
       "type": "flashcards",
