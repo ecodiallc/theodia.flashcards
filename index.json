@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T01:12:43.000Z",
+  "updatedAt": "2026-10-04T01:13:40.000Z",
   "packages": [
     {
       "id": "greek-beginner-100",
@@ -33,6 +33,18 @@
       "name": "Greek Alphabet",
       "description": "The 24 letters of the Greek alphabet with uppercase and lowercase forms, plus their Latin transliteration.",
       "language": "el",
+      "category": "bible-languages",
+      "cardCount": 24,
+      "version": "1.0.0",
+      "updatedAt": "2026-10-04"
+    },
+    {
+      "id": "hebrew-alphabet",
+      "type": "flashcards",
+      "path": "Hebrew-Alphabet.flashcards.zip",
+      "name": "Hebrew Alphabet",
+      "description": "The 22 letters of the Hebrew alphabet plus their final forms, with the letter on the front and the English name on the back.",
+      "language": "he",
       "category": "bible-languages",
       "cardCount": 24,
       "version": "1.0.0",
