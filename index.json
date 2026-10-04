@@ -1,30 +1,30 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-03T00:00:00.000Z",
+  "updatedAt": "2026-10-04T01:10:14.000Z",
   "packages": [
     {
-      "id": "greek-beginner-50",
+      "id": "greek-beginner-100",
       "type": "flashcards",
-      "path": "Greek-Beginner-50.flashcards.zip",
-      "name": "Popular Greek Words — Beginner Top 50",
-      "description": "The 50 most common Greek words every beginner should know, drawn from biblical/Koine vocabulary with English glosses and example references.",
+      "path": "Greek-Beginner-100.flashcards.zip",
+      "name": "Popular Greek Words — Beginner Top 100",
+      "description": "The 100 most common Greek words every beginner should know, drawn from biblical/Koine vocabulary with English glosses and example references.",
       "language": "el",
       "category": "bible-languages",
-      "cardCount": 50,
-      "version": "1.0.0",
-      "updatedAt": "2026-10-03"
+      "cardCount": 100,
+      "version": "1.1.0",
+      "updatedAt": "2026-10-04"
     },
     {
-      "id": "popular-verses-top-25-kjv",
+      "id": "popular-verses-top-50-kjv",
       "type": "flashcards",
-      "path": "Popular-Verses-Top-25.flashcards.zip",
-      "name": "Popular Verses — Top 25 (KJV)",
-      "description": "25 of the most popular and memorized Bible verses from the King James Version.",
+      "path": "Popular-Verses-Top-50.flashcards.zip",
+      "name": "Popular Verses — Top 50 (KJV)",
+      "description": "50 of the most popular and memorized Bible verses from the King James Version.",
       "language": "en",
       "category": "bible-memory",
-      "cardCount": 25,
-      "version": "1.0.0",
-      "updatedAt": "2026-10-03"
+      "cardCount": 50,
+      "version": "1.1.0",
+      "updatedAt": "2026-10-04"
     }
   ]
 }

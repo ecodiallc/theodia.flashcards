@@ -8,9 +8,9 @@ Files in this repository follow [`notes/github-repo-naming-standards.md`](https:
 
 - **Flashcard packages live at the repository root.** Do not place them in subfolders such as `packages/`.
 - **Each package must be a zipped file** at the root, named with sentence-case-dash words + `.flashcards.zip`.
-  - Example: `Greek-Beginner-50.flashcards.zip`
+  - Example: `Greek-Beginner-100.flashcards.zip`
 - **The archive must contain exactly one JSON file** named with the same sentence-case-dash base + `.flashcards.json`.
-  - Example: `Greek-Beginner-50.flashcards.json`
+  - Example: `Greek-Beginner-100.flashcards.json`
 - Do not include loose images, folders, or sidecar files inside the archive.
 - `index.json` registers all packages and points to the `.flashcards.zip` path.
 
@@ -20,8 +20,8 @@ Files in this repository follow [`notes/github-repo-naming-standards.md`](https:
 
 | ID                          | Type       | File                                   | Name                              | Description                                                  |
 | --------------------------- | ---------- | -------------------------------------- | --------------------------------- | ------------------------------------------------------------ |
-| `greek-beginner-50`         | flashcards | `Greek-Beginner-50.flashcards.zip`     | Popular Greek Words — Beginner Top 50 | The 50 most common Greek words every beginner should know. |
-| `popular-verses-top-25-kjv` | flashcards | `Popular-Verses-Top-25.flashcards.zip` | Popular Verses — Top 25 (KJV)     | 25 of the most popular and memorized Bible verses from the King James Version. |
+| `greek-beginner-100`         | flashcards | `Greek-Beginner-100.flashcards.zip`     | Popular Greek Words — Beginner Top 100 | The 100 most common Greek words every beginner should know. |
+| `popular-verses-top-50-kjv` | flashcards | `Popular-Verses-Top-50.flashcards.zip` | Popular Verses — Top 50 (KJV)     | 50 of the most popular and memorized Bible verses from the King James Version. |
 
 ## Installation
 
@@ -32,8 +32,8 @@ Add this repository in **Theodia → Settings → GitHub Repositories** using th
 ### Package archive
 
 ```
-Greek-Beginner-50.flashcards.zip
-└── Greek-Beginner-50.flashcards.json
+Greek-Beginner-100.flashcards.zip
+└── Greek-Beginner-100.flashcards.json
 ```
 
 ### `index.json`
@@ -44,26 +44,26 @@ Greek-Beginner-50.flashcards.zip
   "updatedAt": "2026-10-03T00:00:00.000Z",
   "packages": [
     {
-      "id": "greek-beginner-50",
+      "id": "greek-beginner-100",
       "type": "flashcards",
-      "path": "Greek-Beginner-50.flashcards.zip",
-      "name": "Popular Greek Words — Beginner Top 50",
-      "description": "The 50 most common Greek words every beginner should know.",
+      "path": "Greek-Beginner-100.flashcards.zip",
+      "name": "Popular Greek Words — Beginner Top 100",
+      "description": "The 100 most common Greek words every beginner should know.",
       "language": "el",
       "category": "bible-languages",
-      "cardCount": 50,
-      "version": "1.0.0"
+      "cardCount": 100,
+      "version": "1.1.0"
     },
     {
-      "id": "popular-verses-top-25-kjv",
+      "id": "popular-verses-top-50-kjv",
       "type": "flashcards",
-      "path": "Popular-Verses-Top-25.flashcards.zip",
-      "name": "Popular Verses — Top 25 (KJV)",
-      "description": "25 of the most popular and memorized Bible verses from the King James Version.",
+      "path": "Popular-Verses-Top-50.flashcards.zip",
+      "name": "Popular Verses — Top 50 (KJV)",
+      "description": "50 of the most popular and memorized Bible verses from the King James Version.",
       "language": "en",
       "category": "bible-memory",
-      "cardCount": 25,
-      "version": "1.0.0"
+      "cardCount": 50,
+      "version": "1.1.0"
     }
   ]
 }
@@ -77,8 +77,8 @@ The archive must contain exactly one JSON file with this top-level shape. The ap
 {
   "version": 1,
   "deck": {
-    "name": "Popular Greek Words — Beginner Top 50",
-    "description": "The 50 most common Greek words every beginner should know.",
+    "name": "Popular Greek Words — Beginner Top 100",
+    "description": "The 100 most common Greek words every beginner should know.",
     "isReadOnly": true,
     "cards": [
       {
