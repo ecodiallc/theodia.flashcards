@@ -1,4 +1,4 @@
-# theodia.flashcards
+# Theodia Flashcards
 
 | ID                          | Name                              |
 | --------------------------- | --------------------------------- |
