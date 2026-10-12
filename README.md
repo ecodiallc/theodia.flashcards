@@ -1,9 +1,5 @@
 # theodia.flashcards
 
-## Catalog
-
-<!-- Keep this table in sync with index.json -->
-
 | ID                          | Name                              |
 | --------------------------- | --------------------------------- |
 | `greek-alphabet`            | Greek Alphabet                    |
