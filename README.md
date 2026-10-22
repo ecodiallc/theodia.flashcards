@@ -1,9 +1,5 @@
 # Theodia Flashcards
 
-Flashcard decks for Bible study and language learning. A deck is a
-`.flashcards.zip` archive holding one `.flashcards.json` file whose `deck`
-the app installs as a read-only deck.
-
 | ID | Name |
 | --- | ---- |
 | `greek-alphabet` | Greek Alphabet |
