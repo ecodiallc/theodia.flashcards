@@ -15,3 +15,8 @@
 - `greek-prepositions`: 25 common Koine Greek prepositions with English meanings, transliterations, and the grammatical cases they govern.
 - `greek-beginner-100`: The 100 most common Greek words every beginner should know, drawn from biblical/Koine vocabulary with English glosses and example references.
 - `popular-verses-top-50-kjv`: 50 of the most popular and memorized Bible verses from the King James Version.
+
+### Download Theodia.app
+
+- [App Store](https://apps.apple.com/us/app/theodia/id6783143344)
+- [Google Play](https://play.google.com/store/apps/details?id=com.ecodia.theodia)
